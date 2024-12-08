@@ -1,5 +1,7 @@
+import { cart } from "../data/cart";
 let productsHTML = '';
-
+// product_len = products.length;
+// console.log(product_len);
 products.forEach((product) => {
   productsHTML += `
     <div class="product-container">
@@ -62,7 +64,7 @@ document.querySelectorAll('.js-add-to-cart')
       const productId = button.dataset.productId;
 
       let matchingItem;
-
+      // checking if the cart already has the itme.
       cart.forEach((item) => {
         if (productId === item.productId) {
           matchingItem = item;
