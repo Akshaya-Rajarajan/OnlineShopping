@@ -2,7 +2,7 @@
   height: 60px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: white;
+  background-color: rgb(205, 196, 196);
 
   display: flex;
   justify-content: center;
@@ -91,13 +91,4 @@
   }
 }
 
-.checkout-header-right-section {
-  text-align: right;
-  width: 150px;
-}
 
-@media (max-width: 1000px) {
-  .checkout-header-right-section {
-    width: auto;
-  }
-}
